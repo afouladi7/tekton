@@ -36,13 +36,13 @@ On every push to the `spring-petclinic` git repository on Gogs git server, the f
     ```
     $ oc new-project demo
     $ git clone https://github.com/afouladi7/tekton.git
-    $ demo.sh install
+    $ ./demo.sh install
     ```
 
 1. Start the deploy pipeline by making a change in the `spring-petclinic` Git repository on Gogs, or run the following:
 
     ```
-    $ demo.sh start
+    $ ./demo.sh start
     ```
 
 1. Check pipeline run logs
